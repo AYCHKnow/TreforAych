@@ -7,7 +7,12 @@
 ## npm scripts inside `package.json`:
 ```
   "scripts": {
-    "start": "webpack -d --watch", // continuous incremental build in development with include source maps
-    "build": "webpack -p" // building once for production 
-  }
+    "build": "NODE_ENV=production node utils/build.js",
+    "start": "NODE_ENV=development node utils/webserver.js --display-error-details"
+  },
 ```
+
+## Setup
+* Navigate to `chrome://extensions/`
+* Make sure developer mode is turned on
+* Click load unpacked extension and select the `trello-lane-limit` folder
