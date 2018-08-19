@@ -1,0 +1,7 @@
+node_modules
+build
+secrets.*.js
+.DS_Store
+errorShots
+yarn-error.log
+.vscode/

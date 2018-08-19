@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trello for Crystal",
+  "description": "Trello rules for crystals",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.bundle.js"],
+    "persistent": true
+  },
+  "content_scripts": [{
+    "js": ["content.bundle.js"],
+    "matches": ["*://trello.com/b/*"]
+  }],
+  "permissions": [
+    "tabs", "https://trello.com/b/*"
+  ]
+}
