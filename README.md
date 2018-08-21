@@ -15,4 +15,4 @@
 ## Setup
 * Navigate to `chrome://extensions/`
 * Make sure developer mode is turned on
-* Click load unpacked extension and select the `trello-for-crystal` folder
+* Click load unpacked extension and select the `trello-for-crystal/build` folder
